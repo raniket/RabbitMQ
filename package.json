@@ -1,0 +1,14 @@
+{
+  "name": "rabbitmq-experiment",
+  "version": "1.0.0",
+  "description": "rabbitmq experiment is open now",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raniket <raniketram@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "amqplib": "^0.5.3"
+  }
+}
