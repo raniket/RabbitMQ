@@ -1,8 +1,8 @@
 // INFO
 
 // RabbitMQ messge boaker is runnign on my localhost[http://localhost:5672]
-// I am using official docker image to RabbitMQ using the below command
-// docker run -d --hostname my-rabbit  -p 5672:5672 --name some-rabbit-5 rabbitmq:3
+// I am using docker image for RabbitMQ with management console by using the below command
+// docker run -d --hostname my-rabbit --name some-rabbit-6 -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
 
 const amqp = require('amqplib/callback_api');
